@@ -1,0 +1,112 @@
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #787b7e;
+    width: 100%;
+    
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 20px 20px;
+  }
+  
+  a {
+    color: #42b983;
+  }
+
+  .head{
+    height: 160px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .head img{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+  }
+
+  .container-fluid{
+    background-color: #f1f1f3;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+  }
+  .container{
+    margin: auto;
+    height: 80px;
+  }
+  .container .row{
+    position: relative;
+    padding: 30px
+  }
+  .container h5{
+    color: #c0c0c0;
+    margin-top: 5px;
+  }
+
+  .container button {
+    border-radius: 20px;
+    font-size: 16px;
+    float: right;
+    color: #cecfcf;
+    box-shadow: 0px 2px 5px rgba(0,0,0.08,0.12);
+}
+
+  .card{
+    height: 200px;
+    width: 360px;
+    position: relative;
+    padding: 40px 0 40px 0  ;
+    box-shadow: 0px 2px 5px rgba(0,0,0.08,0.1);
+  }
+
+  .card .row{
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .card-body .card-text{
+    color: #a7a7a7;
+  }
+
+  .card-body .card-text2{
+    color: #a7a7a7;
+    font-size: 14px;
+  }
+
+  .image{
+    width: 120px;
+    background-color: #ffffff;
+    height: 120px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0.5, 0.088);
+    position: relative;
+  }
+
+  .image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+  }
+
+
+  
+  
+
+
